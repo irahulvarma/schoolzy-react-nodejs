@@ -2,8 +2,8 @@
   "name": "schoolzy-react-nodejs",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {    
-    
+  "dependencies": {
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "react": "^18.2.0",
@@ -15,7 +15,8 @@
     "@testing-library/user-event": "^13.5.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
