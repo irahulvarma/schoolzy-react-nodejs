@@ -15,7 +15,8 @@
     "@testing-library/user-event": "^13.5.0",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
-    "@mui/material": "^5.10.9"
+    "@mui/material": "^5.10.9",
+    "react-router-dom": "^6.4.2"
   },
   "scripts": {
     "start": "node server.js",
